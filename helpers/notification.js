@@ -32,14 +32,14 @@ notification.sendTwiloSms =(phone, msg, callback)=>{
         const requestDetails = {
             hostname: 'api.twilio.com',
             method: 'POST',
-            path: '/2010-04-01/Accounts/ACf9cdb7ab2bfc9ffcc342bcb97681dcb5/Messages.json',
-            auth: 'ACf9cdb7ab2bfc9ffcc342bcb97681dcb5:15b16171663af51b0549eac5bb427cf4',
+            path: '',
+            auth: '', //use your own auth and path here
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             }
         };
         
-        const postData = 'To=+8801521526826&From=+16319934166&Body=Hello%2C%20World!'; // Adjust to your message details
+        const postData = 'To=&From=&Body=Hello%2C%20World!'; // Adjust to your message details(add your own phone number)
         
         const req = https.request(requestDetails, (res) => {
             // Get the status of the sent request

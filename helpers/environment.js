@@ -10,9 +10,9 @@ environment.staging ={
     secretKey: 'hakafhakfhfakfh',
     maxChecks: 5,
     twilio :{
-        fromPhone: '+16319934166',
-        accountSid: 'ACf9cdb7ab2bfc9ffcc342bcb97681dcb5',
-        authToken:'15b16171663af51b0549eac5bb427cf4'
+        fromPhone: '',
+        accountSid: '',
+        authToken:''  //use ur own auth token
 
 
     }
@@ -24,9 +24,9 @@ environment.production ={
     envName: 'production',
     secretKey: 'seiohwehowihg',
     twilio :{
-        fromPhone: '+16319934166',
-        accountSid: 'ACf9cdb7ab2bfc9ffcc342bcb97681dcb5',
-        authToken:'15b16171663af51b0549eac5bb427cf4'
+        fromPhone: '',
+        accountSid: '',
+        authToken:'' //use ur own auth token
 
 
 
